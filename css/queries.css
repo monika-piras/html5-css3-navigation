@@ -1,0 +1,56 @@
+@media only screen and (max-width: 75em) {  /*1200px*/
+    html {
+        font-size: 56.25%;
+    }
+}
+
+@media only screen and (max-width: 56.25em), /*900px*/
+only screen and (hover: none) {
+     html {
+         font-size: 50%;
+     }
+     
+     body {
+         padding: 0;
+     }
+}
+
+@media only screen and (max-width: 37.5em) { /*600px*/
+
+    .navigation__button {
+        height: 5rem;
+        width: 5rem;
+    }
+
+    .navigation__icon,
+    .navigation__icon::before,
+    .navigation__icon::after {
+        width: 2rem;
+        height: 2px;
+    }
+
+    .navigation__icon {
+        margin-top: 2.5rem;
+    }
+
+    .navigation__background {
+        height: 5rem;
+        width: 5rem;
+        top: 6rem;
+        right: 6rem;
+    }
+
+    .header-logo {
+        height: 14.5rem;
+    }
+
+    .heading-primary--main {
+        font-size: 4rem;
+        letter-spacing: .5rem;
+    }
+
+    .heading-primary--sub {
+        font-size: 1rem;
+        letter-spacing: .3rem;
+    }
+}
